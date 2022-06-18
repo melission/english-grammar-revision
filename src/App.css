@@ -44,15 +44,16 @@ body {
 
 .info-block_grammar-rule {
   display: block;
-  position: absolute;
+  /*position: absolute;*/
   text-align: center;
   justify-content: center;
   /*background-color: white;*/
-  top: 5px;
-  left: 8%;
+  /*top: 5px;*/
+  /*left: 8%;*/
   overflow: auto;
-  height: 80%;
+  height: 75%;
   width: 80%;
+  max-width: 900px;
   margin: 2%;
   /*border: solid 3px white;*/
   /*border-radius: 5px;*/
