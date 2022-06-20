@@ -43,6 +43,8 @@ const double_rules = [
     "Really, quite, and pretty can be both: gradable and non-gradable adverbs. Really beautiful and really stunning. " +
     "Almost, nearly, and virtually are non-gradable only. Rather is exclusively gradable. Utterly can be used with " +
     "gradable and non-gradable adjectives. "]],
+    [["Illness vs Disease vs Sickness"], ["Illness is about feeling unwell. Disease is about a having a diagnose. " +
+    "Sickness is about the desire to vomit or about something utterly unusual. "]],
 ]
 
 export default double_rules;
