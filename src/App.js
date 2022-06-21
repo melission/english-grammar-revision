@@ -6,7 +6,20 @@ import {useState} from "react";
 function App() {
 
     // let [rule, setRule] = useState(rules[Math.floor((Math.random() * rules.length))]);
+    let index = -1
+    let newIndex = -1
+    // let doubleRule = double_rules[Math.floor((Math.random() * double_rules.length))];
     let [doubleRule, setDoubleRule] = useState(double_rules[Math.floor((Math.random() * double_rules.length))]);
+    // let getNewRule = () => {
+    //     let newIndex = Math.floor((Math.random() * double_rules.length))
+    //     console.log(index, newIndex)
+    //     if (newIndex !== index) {
+    //         index = newIndex;
+    //         doubleRule = double_rules[index];
+    //     } else {
+    //         doubleRule = 'the same number';
+    //     }
+    // };
 
   return (
       <div  className="App">
@@ -22,8 +35,23 @@ function App() {
               <div className="info-block_button">
                   {/*<button className="button" onClick={() => setRule(*/}
                   {/*    rule = rules[Math.floor((Math.random() * rules.length))])}>Get a rule</button>*/}
-                  <button className="button" onClick={() => setDoubleRule(
-                      doubleRule = double_rules[Math.floor((Math.random() * doubleRule.length))])}>Get a rule</button>
+                  {/*<button className="button" onClick={() => setDoubleRule(*/}
+                  {/*    doubleRule = double_rules[Math.floor((Math.random() * doubleRule.length))])}>Get a rule</button>*/}
+                  <button className="button" onClick={ () => setDoubleRule(
+                      doubleRule = () => {
+                         newIndex = Math.floor((Math.random() * double_rules.length));
+                            if (newIndex !== index) {
+                                index = newIndex;
+                                doubleRule = double_rules[index];
+                            } else {
+                                newIndex = Math.floor((Math.random() * double_rules.length));
+                                index = newIndex;
+                                doubleRule = double_rules[index];
+                            }
+                            return doubleRule
+                      })}>
+                      Get a rule
+                  </button>
               </div>
           </div>
           <footer className="App-footer">
