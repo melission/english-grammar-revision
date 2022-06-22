@@ -27,7 +27,7 @@ const double_rules = [
     "'gentle', 'gym', and 'gipsy'. "]],
     [['My or Mine'], ["'My' is used to show the fact of the possession of a noun, while 'mine' shows the fact of " +
     "possession itself and need no noun after it. For example: this is my husband but this husband is mine. "]],
-    [['Double consonants'], ["The last consonant is being doubled in two cases. If it's three letter word with a " +
+    [['Double consonants'], ["The last consonant is doubled in two cases. If it's a three letter word with a " +
     "structure consonant-vowel-consonant. For example: red -> redder; wet -> wetter; stop -> stopped." +
     "If it's a two syllable word with the stress on the second syllable and the second syllable has a C-V-C structure. " +
     "For example: preFÉR -> preferred; énter -> entered; admit -> admitted. "]],
@@ -45,6 +45,10 @@ const double_rules = [
     "gradable and non-gradable adjectives. "]],
     [["Illness vs Disease vs Sickness"], ["Illness is about feeling unwell. Disease is about a having a diagnose. " +
     "Sickness is about the desire to vomit or about something utterly unusual. "]],
+    [["Possessives 's and s'"], ["If it's a singular noun, it's possible to show a possession with either option: " +
+    "'It is Charles' book' or 'It is Charles's book'. Both options are grammatically correct. If a noun is a plural and" +
+    " regular noun (regular nouns form their plural forms with adding 's' at their end. a worker -> workers) you need to " +
+    "simply add an apostrophe at the end. For example, workers' salary or teachers' responsibilities. "]],
 ]
 
 export default double_rules;
