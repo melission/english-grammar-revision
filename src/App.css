@@ -80,6 +80,12 @@ body {
   min-width: 200px;
   max-width: 250px;
   background-color: gray;
+  color: black;
+}
+
+.button:hover {
+  background-color: black;
+  color: #bcb6a7;
 }
 
 .App-footer {
