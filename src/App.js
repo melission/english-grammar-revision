@@ -10,16 +10,6 @@ function App() {
     let newIndex = -1
     // let doubleRule = double_rules[Math.floor((Math.random() * double_rules.length))];
     let [doubleRule, setDoubleRule] = useState(double_rules[Math.floor((Math.random() * double_rules.length))]);
-    // let getNewRule = () => {
-    //     let newIndex = Math.floor((Math.random() * double_rules.length))
-    //     console.log(index, newIndex)
-    //     if (newIndex !== index) {
-    //         index = newIndex;
-    //         doubleRule = double_rules[index];
-    //     } else {
-    //         doubleRule = 'the same number';
-    //     }
-    // };
 
   return (
       <div  className="App">
@@ -27,6 +17,7 @@ function App() {
               <img src={book} className="App-logo" alt="book image"/>
           </header>
           <div className="App-info_block">
+              <h3>There are {double_rules.length} rules and one of them is:</h3>
               <div className="info-block_grammar-rule">
                   {/*{rule}*/}
                   <h3>{doubleRule[0]}</h3>
