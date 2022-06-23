@@ -49,6 +49,10 @@ const double_rules = [
     "'It is Charles' book' or 'It is Charles's book'. Both options are grammatically correct. If a noun is a plural and" +
     " regular noun (regular nouns form their plural forms with adding 's' at their end. a worker -> workers) you need to " +
     "simply add an apostrophe at the end. For example, workers' salary or teachers' responsibilities. "]],
+    [["Reported (indirect) speech."], ["Reported speech is a way to say what someone said in a past. To form indirect " +
+    "speech, you need to backshift the sentence's tense on one level in the past. For example: '-I'm very tired after " +
+    "the marathon', she said' should become 'She said that she was very tired after the marathon'; the tense of the " +
+    "first sentence was backshifted on one step in a past: from present simple to past simple. "]],
 ]
 
 export default double_rules;
