@@ -53,6 +53,9 @@ const double_rules = [
     "speech, you need to backshift the sentence's tense on one level in the past. For example: '-I'm very tired after " +
     "the marathon', she said' should become 'She said that she was very tired after the marathon'; the tense of the " +
     "first sentence was backshifted on one step in a past: from present simple to past simple. "]],
+    [["Zero condition."], ["Zero condition is about real past/present situations, " +
+    "and it forms with 'if' + a statement in the past/present + a comma + a statement of the same tense. For example, " +
+    "if it rains, we work from home OR we work from home if it rains [note that in the second case there is no comma."]],
 ]
 
 export default double_rules;
