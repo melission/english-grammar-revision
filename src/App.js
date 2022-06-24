@@ -17,7 +17,7 @@ function App() {
               <img src={book} className="App-logo" alt="book image"/>
           </header>
           <div className="App-info_block">
-              <h3>There are {double_rules.length} rules and one of them is:</h3>
+              {/*<h3>There are {double_rules.length} rules and one of them is:</h3>*/}
               <div className="info-block_grammar-rule">
                   {/*{rule}*/}
                   <h3>{doubleRule[0]}</h3>
