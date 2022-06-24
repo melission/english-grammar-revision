@@ -53,9 +53,20 @@ const double_rules = [
     "speech, you need to backshift the sentence's tense on one level in the past. For example: '-I'm very tired after " +
     "the marathon', she said' should become 'She said that she was very tired after the marathon'; the tense of the " +
     "first sentence was backshifted on one step in a past: from present simple to past simple. "]],
-    [["Zero condition."], ["Zero condition is about real past/present situations, " +
+    [["The zero condition."], ["Zero condition is about real past/present situations, " +
     "and it forms with 'if' + a statement in the past/present + a comma + a statement of the same tense. For example, " +
     "if it rains, we work from home OR we work from home if it rains [note that in the second case there is no comma."]],
+   [['The first condition.'], ["First condition is about a real situation which can lead to future consequences. It forms" +
+   " with 'if' + a statement in the present tense + a comma + a statement in the future tense. For example, if I have a " +
+   "dog, I will name it Spoke. Note that it's incorrect to use 'if' and 'will' in one part of a conditional sentence. "]],
+    [['The second condition.'], ["Second condition is about unreal present; in other words, what would happen if something " +
+    "happened. It forms with 'if' + statement in the past + a comma + a statement with would as main verb." +
+    "For example, if I were you, I would spend more time preparing for IELTS exam. It's unreal for me to be you, so this is " +
+    "the reason why this is unreal present."]],
+    [["The third condition."], ["It's a condition about unreal past; in other words, what would have happened if something " +
+    "had happened. It forms with 'if' + a statement in past perfect + a comma + a subject + 'would have + verb in the third" +
+    " form. For example, If i had applied to university four years ago, I would have gotten a Master's degree already. " +
+    "I didn't applied to university four years ago, and I can't change in [there is no time travel available in 2021]."]],
 ]
 
 export default double_rules;
