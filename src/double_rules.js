@@ -8,7 +8,7 @@ const double_rules = [
     [["Modals of speculation when you are sure about the past: must have done and ought have done"], ["If you need to speculate about a situation in the " +
     "past abd you are utterly sure about it, you need to use must/ought + have + verb in third form. Or if you are sure " +
     "that something did happened in the past, use cannot + have + verb in third form. For example, " +
-    "I perfectly clear remember how i parked my car in the garage, but now it's gone! It must have been stolen. I cannot" +
+    "I perfectly clear remember how i parked my car in the garage, but now it's gone! It must have been stolen. I cannot " +
     "have parked it anywhere else, there is no space for it! "]],
     [['Modals of speculations when you are not sure about the past: could/might/may have done'], [" If you need to speculate about a situation " +
     "that has already happened, you need to use one of the modals of speculation (could, may, might) + have + verb in " +
